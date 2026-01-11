@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 export default function Header() {
   return (
     <div>
-      <h3 className="text-sm text-[#90A1B9] mb-2">POWERED BY</h3>
+      <h3 className="text-sm text-[#90A1B9] mb-2 font-medium">POWERED BY</h3>
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-2">
           <Image
