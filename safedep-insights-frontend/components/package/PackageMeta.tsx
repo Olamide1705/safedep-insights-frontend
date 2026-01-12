@@ -46,10 +46,10 @@ export default function PackageMeta() {
       {items.map(({ label, value, icon: Icon, textColor, iconColor }) => (
         <Card
           key={label}
-          className="bg-white border border-[#E2E8F0] rounded-sm py-4 min-h-30 hover:shadow-md transition-all duration-300"
+          className="bg-white border border-[#E2E8F0] rounded shadow-sm py-4 min-h-30 hover:shadow-md transition-all duration-300"
         >
           <CardContent className="flex flex-col justify-between h-full">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2">
               <div className="border border-[#E2E8F0] rounded-sm p-1">
                 <Icon className={`h-4 w-4 text-primary ${iconColor}`} />
               </div>
