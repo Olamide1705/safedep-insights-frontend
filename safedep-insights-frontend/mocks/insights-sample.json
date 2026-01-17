@@ -1,0 +1,15 @@
+{
+  "packageVersion": {
+    "package": {
+      "name": "next",
+      "ecosystem": "npm"
+    },
+    "version": "15.5.4"
+  },
+  "insight": {
+    "analyzedAt": "2025-10-24T10:06:00Z",
+    "sourceUrl": "https://registry.npmjs.org/next/-/next-15.5.4.tgz",
+    "sha256": "5188d186e94a8d5470af6ed2725d209d8b2abc29cc7d6bedd58a748efd7e89f9",
+    "confidence": "HIGH"
+  }
+}

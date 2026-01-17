@@ -1,3 +1,5 @@
+"use client";
+
 import Header from "@/components/header";
 import PackageReport from "@/components/package/PackageReport";
 

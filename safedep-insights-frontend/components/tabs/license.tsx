@@ -28,10 +28,10 @@ export default function LicenseTab() {
   return (
     <div className="bg-white border border-[#E2E8F0] p-5">
       <div className="overflow-x-auto">
-        <Table className="w-full table-fixed">
+        <Table className="w-full md:table-fixed">
           <TableHeader>
             <TableRow>
-              <TableHead className="w-2/3">License ID</TableHead>
+              <TableHead className="w-full md:w-2/3">License ID</TableHead>
               <TableHead className="w-1/2">License Name</TableHead>
               <TableHead className="w-1/2">Reference URL</TableHead>
             </TableRow>

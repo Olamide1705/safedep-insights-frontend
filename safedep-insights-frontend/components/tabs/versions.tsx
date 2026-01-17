@@ -1,4 +1,3 @@
-import { Button } from "../ui/button";
 import {
   Table,
   TableBody,
@@ -28,12 +27,12 @@ export default function VersionsTab() {
   return (
     <div className="bg-white border border-[#E2E8F0] p-5">
       <div className="overflow-x-auto">
-        <Table className="w-full table-fixed">
+        <Table className="w-full md:table-fixed">
           <TableHeader>
             <TableRow>
-              <TableHead className="w-2/3">Version</TableHead>
-              <TableHead className="w-1/6">Published on</TableHead>
-              <TableHead className="w-1/6 text-right"> </TableHead>
+              <TableHead className="w-full md:w-2/3">Version</TableHead>
+              <TableHead className="w-1/2 md:w-1/6">Published on</TableHead>
+              <TableHead className="w-1/2 md:w-1/6 text-right"> </TableHead>
             </TableRow>
           </TableHeader>
 
@@ -55,7 +54,7 @@ export default function VersionsTab() {
 
                 <TableCell>{item.published}</TableCell>
                 <TableCell className="text-right">
-                  <button className="text-primary text-sm hover:underline border-l border-border px-6 cursor-pointer">
+                  <button className="text-primary text-xs md:text-sm hover:underline border-l border-border px-4 md:px-6 cursor-pointer">
                     View Version
                   </button>
                 </TableCell>
